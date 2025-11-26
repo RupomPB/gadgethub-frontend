@@ -13,7 +13,7 @@ export default function ContactPage() {
     <div className="max-w-6xl mx-auto px-4 py-16">
       {/* Page Title */}
       <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold mb-6 text-center">
-        <span className="bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
+        <span className="bg-linear-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
           Contact Us
         </span>
       </h1>
@@ -47,7 +47,7 @@ export default function ContactPage() {
       </div>
 
       {/* Marquee Section */}
-      <div className="p-4 rounded-lg max-w-5xl mx-auto mb-8 bg-gradient-to-r from-purple-600 to-pink-600">
+      <div className="p-4 rounded-lg max-w-5xl mx-auto mb-8 bg-linear-to-r from-purple-600 to-pink-600">
         <Marquee
           speed={60}
           pauseOnHover={true}
@@ -55,15 +55,15 @@ export default function ContactPage() {
           className="text-center flex items-center gap-5 font-bold text-white"
         >
           <p>
-            We'd love to hear from you! Fill out the form below and we'll get
+            We would love to hear from you! Fill out the form below and we will get
             back to you as soon as possible.
           </p>
           <p>
-            We'd love to hear from you! Fill out the form below and we'll get
+             We would love to hear from you! Fill out the form below and we will get
             back to you as soon as possible.
           </p>
           <p>
-            We'd love to hear from you! Fill out the form below and we'll get
+            We would love to hear from you! Fill out the form below and we will get
             back to you as soon as possible.
           </p>
         </Marquee>
@@ -118,7 +118,7 @@ export default function ContactPage() {
 
           <button
             type="submit"
-            className="w-full py-3 rounded-md text-white font-semibold bg-gradient-to-r from-purple-600 to-pink-600 hover:from-pink-600 hover:to-purple-600 transition-all duration-300"
+            className="w-full py-3 rounded-md text-white font-semibold bg-linear-to-r from-purple-600 to-pink-600 hover:from-pink-600 hover:to-purple-600 transition-all duration-300"
           >
             Send Message
           </button>

@@ -7,7 +7,7 @@ export default function AboutPage() {
     <div className="max-w-4xl mx-auto px-4 py-12">
       {/* Intro / Hero */}
       <h2 className="text-2xl sm:text-3xl md:text-4xl font-extrabold text-center mb-3">
-        <span className="bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
+        <span className="bg-linear-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
           <Typewriter
             words={["Hi 👋, I'm Rupom Prosad Badhan"]}
             loop={Infinity}
@@ -31,7 +31,7 @@ export default function AboutPage() {
 
       {/* About Me Section */}
       <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-center mb-6 mt-12">
-        <span className="bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
+        <span className="bg-linear-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
           About Me
         </span>
       </h2>
@@ -54,7 +54,7 @@ export default function AboutPage() {
 
       {/* Languages & Frameworks Section */}
       <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-center mb-6 mt-12">
-        <span className="bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
+        <span className="bg-linear-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
           🧠 Languages & Frameworks
         </span>
       </h2>
@@ -67,7 +67,7 @@ export default function AboutPage() {
       {/* Deployment & Tools Section */}
       <section className="max-w-4xl mx-auto px-4 py-12">
         <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-center mb-8">
-          <span className="bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
+          <span className="bg-linear-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
             ⚙️ Deployment & Tools
           </span>
         </h2>

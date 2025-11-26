@@ -92,14 +92,14 @@ export default function ProductsDetails() {
   if (productLoading) return <LoadingUI />;
 
   return (
-    <div className="max-w-5xl mx-auto p-6">
+    <div className="max-w-5xl mx-auto p-6 text-black ">
       {/* Product Title */}
       <h1 className="text-4xl font-extrabold text-center mb-8 bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
         {product.title}
       </h1>
 
       {/* Back to Home Button */}
-      <div className="mb-4">
+      <div className="mb-4 text-black">
         <button
           onClick={() => router.push("/")}
           className="bg-gray-200 hover:bg-gray-300 text-gray-800 font-semibold py-2 px-4 rounded transition"
@@ -109,7 +109,7 @@ export default function ProductsDetails() {
       </div>
 
       {/* Product Details */}
-      <div className="flex flex-col md:flex-row gap-6 bg-white shadow-lg rounded-xl p-6">
+      <div className="flex flex-col md:flex-row gap-6 bg-white shadow-lg rounded-xl p-6 text-black">
         {/* Product Image */}
         <div className="md:w-1/2 flex justify-center">
           <img
@@ -121,18 +121,18 @@ export default function ProductsDetails() {
 
         {/* Product Info */}
         <div className="md:w-1/2 flex flex-col gap-4">
-          <p className="text-gray-700 text-lg">{product.shortDescription}</p>
-          <p className="text-gray-600">{product.fullDescription}</p>
+          <p className="text-gray-800 text-lg">{product.shortDescription}</p>
+          <p className="text-gray-800">{product.fullDescription}</p>
 
           <p className="text-2xl font-extrabold text-purple-600">
             Price: ${product.price}
           </p>
 
-          <p className="text-gray-500">
+          <p className="text-gray-800">
             <span className="font-medium">Category:</span> {product.category}
           </p>
 
-          <p className="text-gray-500">
+          <p className="text-gray-800">
             <span className="font-medium">Priority:</span>{" "}
             <span
               className={`px-2 py-1 rounded ${
@@ -147,12 +147,12 @@ export default function ProductsDetails() {
             </span>
           </p>
 
-          <p className="text-gray-500">
+          <p className="text-gray-800">
             <span className="font-medium">Stock:</span>{" "}
             {product.stock > 0 ? product.stock : "Out of Stock"}
           </p>
 
-          <p className="text-gray-400 text-sm">
+          <p className="text-gray-800 text-sm">
             <span className="font-medium">Added on:</span> {product.date}
           </p>
 

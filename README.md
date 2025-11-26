@@ -1,4 +1,4 @@
-![Auth Shop Screenshot]()
+![Auth Shop Screenshot](https://i.ibb.co/pB83QZbp/ss-website.png)
 
 # 🛒 Auth Shop – Next.js Full Stack Application
 

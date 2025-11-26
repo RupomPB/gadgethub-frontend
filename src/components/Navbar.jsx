@@ -78,9 +78,9 @@ export default function Navbar() {
   return (
     <nav className="sticky top-0 z-50 bg-white shadow-md">
       <div className="max-w-6xl mx-auto flex justify-between items-center p-4">
-        <h2 className="text-lg md:text-xl lg:text-2xl font-extrabold">
-          <span className="text-purple-600">Gadget</span>
-          <span className="text-pink-600">HUB</span>
+        <h2 className="text-lg md:text-2xl lg:text-2xl font-extrabold">
+          <span className="text-pink-600">Gadget</span>
+          <span className="text-red-600">HUB</span>
         </h2>
 
         {/* Desktop Links */}
@@ -116,7 +116,7 @@ export default function Navbar() {
               <Link
                 href="/login"
                 className="px-4 py-2 rounded-lg text-white text-sm font-semibold 
-                  bg-linear-to-r from-purple-500 to-pink-500 
+                  bg-linear-to-r from-[#28EBE8] to-[#468CE8]
                   shadow hover:opacity-90 transition w-full sm:w-auto"
               >
                 Login
