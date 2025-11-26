@@ -1,4 +1,4 @@
-![Auth Shop Screenshot](https://i.postimg.cc/13k7MVdS/Screenshot-2025-11-26-170604.png)
+![Auth Shop Screenshot]()
 
 # 🛒 Auth Shop – Next.js Full Stack Application
 
@@ -28,7 +28,7 @@ and a polished UI with animations.
 
 ## 🚀 Live Link
 
-🔗 **Live Site:** https://next-shop-ten-ruby.vercel.app/
+🔗 **Live Site:** 
 
 ---
 
@@ -36,11 +36,11 @@ and a polished UI with animations.
 
 ### 🖥 Client Repository
 
-🔗 https://github.com/md-tahmid-hasan-golap/nextShop-Frontend
+🔗 https://github.com/RupomPB/gadgethub-frontend
 
 ### 🗄 Server Repository
 
-🔗 https://github.com/md-tahmid-hasan-golap/nextShop-Backend
+🔗 https://github.com/RupomPB/gadgethub-server
 
 ---
 
