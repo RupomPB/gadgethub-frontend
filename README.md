@@ -27,7 +27,7 @@ and a polished UI with animations.
 ---
 
 ## 🚀 Live Link
-
+https://gadgethub-frontend-w84a.vercel.app/
 🔗 **Live Site:** 
 
 ---
